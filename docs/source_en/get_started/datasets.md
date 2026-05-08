@@ -70,6 +70,7 @@ Open-source datasets refer to widely used, publicly accessible datasets in the c
 | MMStar       | Multimodal Understanding (Image + Text)      | [Detailed Introduction](https://github.com/AISBench/benchmark/tree/master/ais_bench/benchmark/configs/datasets/mmstar/README_en.md) |
 | Video-MME       | Multimodal Understanding (video + Text)     | [Detailed Introduction](https://github.com/AISBench/benchmark/tree/master/ais_bench/benchmark/configs/datasets/videomme/README_en.md) |
 | OCRBench_v2    | Multimodal Understanding (Image + Text, OCR Evaluation) | [Detailed Introduction](https://github.com/AISBench/benchmark/tree/master/ais_bench/benchmark/configs/datasets/ocrbench_v2/README_en.md) |
+| RealWorldQA       | Multimodal Understanding (Image + Text)      | [Detailed Introduction](https://github.com/AISBench/benchmark/tree/master/ais_bench/benchmark/configs/datasets/realworldqa/README_en.md) |
 | MathVision       | Multimodal Understanding (Image + Text)      | [Detailed Introduction](https://github.com/AISBench/benchmark/tree/master/ais_bench/benchmark/configs/datasets/mathvision/README_en.md) |
 
 
