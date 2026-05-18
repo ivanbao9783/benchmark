@@ -1,5 +1,6 @@
 from ais_bench.benchmark.datasets.aime2024 import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.aime2025 import *  # noqa: F401, F403
+from ais_bench.benchmark.datasets.aime2026 import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.gsm8k import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.ceval import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.boolq import *  # noqa: F401, F403
@@ -30,6 +31,7 @@ from ais_bench.benchmark.datasets.bbh import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.race import *
 from ais_bench.benchmark.datasets.textvqa import *
 from ais_bench.benchmark.datasets.videobench import *
+from ais_bench.benchmark.datasets.vbench import *
 from ais_bench.benchmark.datasets.vocalsound import *
 from ais_bench.benchmark.datasets.lambada import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.lcsts import *  # noqa: F401, F403
@@ -54,9 +56,12 @@ from ais_bench.benchmark.datasets.cluewsc import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.eprstmt import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.tnews import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.videomme import *
+from ais_bench.benchmark.datasets.mathvision import * # noqa: F401, F403
 from ais_bench.benchmark.datasets.mmstar import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.dapo_math import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.mooncake_trace import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.swebench import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.refcoco import *  # noqa: F401, F403
 from ais_bench.benchmark.datasets.hle import *
+from ais_bench.benchmark.datasets.realworldqa import * # noqa: F401, F403
+
