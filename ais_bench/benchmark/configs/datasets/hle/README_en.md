@@ -12,19 +12,8 @@ HLE (Humanity's Last Exam) is a frontier multimodal benchmark dataset released b
 
 ## Dataset Deployment
 
+- The dataset can be obtained from the Hugging Face dataset link: 🔗 [https://huggingface.co/datasets/cais/hle](https://huggingface.co/datasets/cais/hle).
 - The HLE dataset is in Parquet format and is recommended to be deployed in the `{tool_root_path}/ais_bench/datasets/hle/data/` directory.
-- You can download the dataset from ModelScope or HuggingFace as follows:
-```bash
-# Create target directory
-mkdir -p {tool_root_path}/ais_bench/datasets/hle/
-
-# Download using modelscope(requires installing modelscope)
-modelscope download --dataset cais/hle --local_dir {tool_root_path}/ais_bench/datasets/hle/
-
-# Download using huggingface-cli (requires installing transformers and logging in)
-huggingface-cli download cais/hle --repo-type dataset --local-dir {tool_root_path}/ais_bench/datasets/hle/
-
-```
 
 - Execute `ls -la` in the `{tool_root_path}/ais_bench/datasets/hle/data/` directory to check the directory structure. If the directory structure is as shown below, the dataset has been deployed successfully:
     ```

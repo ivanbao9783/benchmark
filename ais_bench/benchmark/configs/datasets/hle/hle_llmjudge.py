@@ -5,8 +5,6 @@ from ais_bench.benchmark.openicl.icl_inferencer import GenInferencer
 from ais_bench.benchmark.openicl.icl_prompt_template import (MMPromptTemplate,
                                                              PromptTemplate)
 from ais_bench.benchmark.openicl.icl_retriever import ZeroRetriever
-from ais_bench.benchmark.utils.postprocess.model_postprocessors import \
-    extract_non_reasoning_content
 
 # Model inference prompt template - aligned with official HLE format
 HLE_INFER_PROMPT = "Your response should be in the following format:\nExplanation: {your explanation for your answer choice}\nAnswer: {your chosen answer}\nConfidence: {your confidence score between 0% and 100% for your answer}"

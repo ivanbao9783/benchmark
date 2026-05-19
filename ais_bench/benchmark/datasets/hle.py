@@ -13,10 +13,9 @@ from ais_bench.benchmark.datasets.utils.datasets import (get_content_str,
                                                          get_data_path)
 from ais_bench.benchmark.datasets.utils.llm_judge import (
     LLMJudgeCorrectEvaluator, LLMJudgeDataset)
-from ais_bench.benchmark.openicl.icl_evaluator.icl_base_evaluator import \
-    BaseEvaluator
 from ais_bench.benchmark.registry import ICL_EVALUATORS, LOAD_DATASET
 from ais_bench.benchmark.utils.logging.logger import AISLogger
+from ais_bench.benchmark.utils.logging.error_codes import UTILS_CODES
 
 logger = AISLogger()
 
@@ -90,7 +89,7 @@ class HLEJGDataset(LLMJudgeDataset):
         return HLEDataset
 
 
-def parse_predictions(predictions: list) -> list[dict]:
+def parse_predictions(predictions: list) -> List[Dict[str, Any]]:
     """Parse prediction strings into structured format.
 
     Extracts model answer, reasoning, correctness, and confidence from
@@ -121,7 +120,9 @@ def parse_predictions(predictions: list) -> list[dict]:
                 }
             )
         except json.JSONDecodeError:
-            print(f"Error: wrong format prediction: {cleaned}")
+            logger.error(
+                UTILS_CODES.UNKNOWN_ERROR, f"wrong format prediction: {cleaned}"
+            )
             continue
     return results
 
@@ -174,7 +175,7 @@ def calib_err(confidence, correct, p="2", beta=100):
             elif p == "infty" or p == "infinity" or p == "max":
                 cerr = np.maximum(cerr, difference)
             else:
-                assert False, "p must be '1', '2', or 'infty'"
+                raise ValueError("p must be '1', '2', or 'infty'")
 
     if p == "2":
         cerr = np.sqrt(cerr)
@@ -199,11 +200,12 @@ def dump_metrics(judge_results, n):
             - sample_num: Total number of samples
     """
     if not judge_results:
+        logger.error(UTILS_CODES.UNKNOWN_ERROR, "No available judge_results")
         return {
             "accuracy": "0%",
             "confidence_half_width": "+/- 0%",
             "calibration_error": 0,
-            "sample_num": 0,
+            "sample_num": n,
         }
 
     correct = []
@@ -221,7 +223,10 @@ def dump_metrics(judge_results, n):
 
     # Handle case where prediction count differs from expected
     if len(correct) != n:
-        print(f"Available predictions: {len(correct)} | Total questions: {n}")
+        logger.error(
+            UTILS_CODES.UNKNOWN_ERROR,
+            f"Available predictions: {len(correct)} | Total questions: {n}",
+        )
 
     accuracy = round(100 * sum(correct) / n, 2)
     # Wald estimator, 95% confidence interval
