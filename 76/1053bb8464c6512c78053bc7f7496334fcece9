@@ -1,0 +1,41 @@
+ais_bench/benchmark/models/output.py
+  s_c8365d36d290b6::t_a3418e3f1d755a 29
+  s_c8365d36d290b6::t_a3ca9a602fc810 30
+  s_c8365d36d290b6::t_9852157fce7314 31
+ais_bench/benchmark/models/api_models/base_api.py
+  s_c8365d36d290b6::t_608a9588d4ad1a 217-223
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "761053bb8464c6512c78053bc7f7496334fcece9",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_c8365d36d290b6": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7ace2ec316b66eb0ed5649",
+        "model": "glm-5.2"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "session_id": "6a7ace2ec316b66eb0ed5649",
+        "tool_use_id": "6a7be7acc316b66eb0ed5aed",
+        "source_scene": "agent",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "tool_type": "builtin",
+        "client_type": "ide",
+        "dedupe_key": "6a7ace2ec316b66eb0ed5649:6a7be7acc316b66eb0ed5aed:afterEdit:6f801c94",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a7ace2ec316b66eb0ed5649",
+        "operation_id": "6a7be7acc316b66eb0ed5aed"
+      }
+    }
+  }
+}
