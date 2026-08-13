@@ -1,0 +1,48 @@
+tools/infer_serve_simulator/api/base_api.py
+  s_23e63e7f81b1be::t_dd359c2e8da48a 18
+tools/infer_serve_simulator/api/metrics_api.py
+  s_23e63e7f81b1be::t_459c2ba9958f13 1-86
+tools/infer_serve_simulator/flask_service.py
+  s_23e63e7f81b1be::t_2770abaf70e187 101-113
+  s_23e63e7f81b1be::t_afb7ba61cfb7f2 6
+tools/infer_serve_simulator/api/api_config.yaml
+  s_23e63e7f81b1be::t_834abf597deb66 22
+  s_23e63e7f81b1be::t_f9ec1ec2ac6ef3 14-21,23-33
+tools/infer_serve_simulator/README.md
+  s_23e63e7f81b1be::t_4443e180ef4111 35-49,52-63
+  s_23e63e7f81b1be::t_c45712f8e58730 77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "9090d68d243ba2476e8cf9e497dcacf07736965a",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_23e63e7f81b1be": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7d873b820efc002618add8",
+        "model": "glm-5.2"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "tool_type": "builtin",
+        "runtime_client": "trae-tob-git-ai",
+        "external_session_id": "6a7d873b820efc002618add8",
+        "tool_use_id": "6a7d8c4c820efc002618aeec",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "source_scene": "agent",
+        "edit_kind": "file_edit",
+        "dedupe_key": "6a7d873b820efc002618add8:6a7d8c4c820efc002618aeec:afterEdit:0b12beb3",
+        "client_type": "ide",
+        "operation_id": "6a7d8c4c820efc002618aeec",
+        "session_id": "6a7d873b820efc002618add8"
+      }
+    }
+  }
+}
