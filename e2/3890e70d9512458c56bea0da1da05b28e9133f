@@ -1,0 +1,43 @@
+docs/source_en/base_tutorials/all_params/models.md
+  s_bae2b3b65ea257::t_804bb83da67f3c 86
+docs/source_zh_cn/advanced_tutorials/logprobs_collection.md
+  s_bae2b3b65ea257::t_38b920281a5e3f 1-197
+docs/source_zh_cn/base_tutorials/all_params/models.md
+  s_bae2b3b65ea257::t_9786a7cea1ef9e 81
+docs/source_en/advanced_tutorials/logprobs_collection.md
+  s_bae2b3b65ea257::t_e46af6f45b0dfc 1-197
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "e23890e70d9512458c56bea0da1da05b28e9133f",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_bae2b3b65ea257": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a7d7058c316b66eb0ed5e73",
+        "model": "glm-5.2"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "session_id": "6a7d7058c316b66eb0ed5e73",
+        "dedupe_key": "6a7d7058c316b66eb0ed5e73:6a7fdf6316fe8feb96ae8e24:afterEdit:5f067049",
+        "client_type": "ide",
+        "source_scene": "agent",
+        "tool_type": "builtin",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a7fdf6316fe8feb96ae8e24",
+        "operation_id": "6a7fdf6316fe8feb96ae8e24",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_id": "icube:applyChatSnapshotPatch",
+        "external_session_id": "6a7d7058c316b66eb0ed5e73"
+      }
+    }
+  }
+}
