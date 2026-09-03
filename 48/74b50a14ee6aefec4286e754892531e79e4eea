@@ -1,0 +1,37 @@
+ais_bench/configs/agent_example/harbor_agent_task.py
+  s_6daf16b8cd2639::t_5949398d2d6481 44
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "4874b50a14ee6aefec4286e754892531e79e4eea",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_6daf16b8cd2639": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a94e4757e0eb9468604daa5",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "tool_use_id": "6a992cb4c00a398af10560f2",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a94e4757e0eb9468604daa5:6a992cb4c00a398af10560f2:afterEdit:7b1c765d",
+        "client_type": "ide",
+        "tool_type": "agent",
+        "external_session_id": "6a94e4757e0eb9468604daa5",
+        "operation_id": "6a992cb4c00a398af10560f2",
+        "session_id": "6a94e4757e0eb9468604daa5",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}
