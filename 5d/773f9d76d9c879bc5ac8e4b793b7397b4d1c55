@@ -1,0 +1,14 @@
+ais_bench/configs/agent_example/harbor_agent_task.py
+  h_18f306f4f1ed04 33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5d773f9d76d9c879bc5ac8e4b793b7397b4d1c55",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  }
+}
