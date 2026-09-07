@@ -1,0 +1,38 @@
+ais_bench/configs/agent_example/harbor_agent_task.py
+  s_6daf16b8cd2639::t_3114d2386b4ba9 5,17-18,20-21,23-25,28-29,43,55,67,78,80,110-111
+ais_bench/configs/agent_example/harbor_deep_swe_task.py
+  s_6daf16b8cd2639::t_9d4f2b086053f0 1-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "a464a14de86f3487dd142f5a1a1ec9a713c6f338",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_6daf16b8cd2639": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a94e4757e0eb9468604daa5",
+        "model": "DeepSeek-V4-Pro-Official__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "tool_name": "Write",
+        "source_scene": "agent",
+        "session_id": "6a94e4757e0eb9468604daa5",
+        "display_model_name": "DeepSeek-V4-Pro 正式版",
+        "operation_id": "6a9e1b96c00a398af1056961",
+        "client_type": "ide",
+        "external_session_id": "6a94e4757e0eb9468604daa5",
+        "edit_kind": "file_edit",
+        "tool_use_id": "6a9e1b96c00a398af1056961",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}
