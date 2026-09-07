@@ -1,0 +1,48 @@
+ais_bench/benchmark/summarizers/deepswe.py
+  s_0033d82e2f37ed::t_7cc0dfe3dde088 31
+ais_bench/benchmark/utils/harbor_report.py
+  s_0033d82e2f37ed::t_0c04648c253ea2 204-207,213-214,217-218
+  s_0033d82e2f37ed::t_8b0392f6bb8b53 121,133-136
+  s_0033d82e2f37ed::t_10365f994cd1f7 668
+  s_0033d82e2f37ed::t_94bb745fd42590 681-682
+  s_0033d82e2f37ed::t_98fc2ad2cfc9d0 94
+  s_0033d82e2f37ed::t_306adb823635b0 738
+  s_0033d82e2f37ed::t_b25a484765d7f3 843
+  s_0033d82e2f37ed::t_c8ac4fba592bcc 698-710
+ais_bench/configs/agent_example/harbor_deep_swe_task.py
+  s_0033d82e2f37ed::t_13786ab42c0fdc 111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "5006955de98c7146ac5869a6c4a100b0c509b634",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0033d82e2f37ed": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e316cc00a398af1056aa6",
+        "model": "DeepSeek-V4-Pro-Official__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "external_session_id": "6a9e316cc00a398af1056aa6",
+        "tool_type": "agent",
+        "session_id": "6a9e316cc00a398af1056aa6",
+        "client_type": "ide",
+        "tool_id": "Edit",
+        "tool_use_id": "6a9e6dc0c00a398af1056c1c",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6a9e6dc0c00a398af1056c1c",
+        "edit_kind": "file_edit",
+        "source_scene": "unknown",
+        "dedupe_key": "6a9e316cc00a398af1056aa6:6a9e6dc0c00a398af1056c1c:afterEdit:44969ac3"
+      }
+    }
+  }
+}
