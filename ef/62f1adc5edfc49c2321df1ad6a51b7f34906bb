@@ -1,0 +1,101 @@
+ais_bench/benchmark/utils/harbor_report.py
+  s_6daf16b8cd2639::t_b666c3e38e3e93 142-147,154,833,840
+  s_6daf16b8cd2639::t_7fe4c92026daca 755-775
+  s_6daf16b8cd2639::t_a55e6ff7db486d 466
+  s_6daf16b8cd2639::t_404c506cffac04 480,494,514,524,600-601,632-633,646,655-656,659-660,677-678,680-707,709-741,751,785-786,808
+  s_6daf16b8cd2639::t_fd84ac7c765291 511,559,566,780,784,789-793,804-807
+  s_6daf16b8cd2639::t_ee32dd842812e9 391
+  s_6daf16b8cd2639::t_453db9774fae83 216-225
+  s_6daf16b8cd2639::t_6ae6310cd76289 708
+  s_6daf16b8cd2639::t_c0101f4d2c2bd7 47,54,102-141,148-153,155-171,174-211,227-229,231-232,308,327,520,822
+  s_6daf16b8cd2639::t_268c478f422519 565
+  s_6daf16b8cd2639::t_af91ca0c12e968 444-449
+  s_6daf16b8cd2639::t_e85a129c5cdf74 173
+  s_6daf16b8cd2639::t_092ca1c51d2b44 557-558
+  s_6daf16b8cd2639::t_83d26fb79c9953 381-385
+  s_6daf16b8cd2639::t_4b59280e2bef4d 492,568-586
+  s_6daf16b8cd2639::t_d9bb75c7ee2a3a 230
+  s_6daf16b8cd2639::t_b519dd1635a880 92-101
+  s_6daf16b8cd2639::t_63dfd2b0a22cc0 236-270
+  s_6daf16b8cd2639::t_4987a94a9894aa 800
+  s_6daf16b8cd2639::t_35c708366ea59b 794
+  s_6daf16b8cd2639::t_fee298b331eb4d 496-501
+  s_6daf16b8cd2639::t_3cf25783990b6a 44-46
+  s_6daf16b8cd2639::t_bdc639aa5cdff6 48-53
+  s_6daf16b8cd2639::t_8f5625905b0e2d 55-57,89-91
+  s_6daf16b8cd2639::t_f01f5dadc76d65 172
+  s_6daf16b8cd2639::t_2ed49f9e7f22a5 212-215
+  s_6daf16b8cd2639::t_6ff27e0014bd1d 226
+  s_6daf16b8cd2639::t_71848a6d4c5e8e 233-235
+  s_6daf16b8cd2639::t_8db722458a6a74 271-273,305-307
+  s_6daf16b8cd2639::t_64e8ae48d7967f 309-311,324-326
+  s_6daf16b8cd2639::t_1b3a1157757c0e 328-330,378-380
+  s_6daf16b8cd2639::t_7a1ae4f132c220 386-390
+  s_6daf16b8cd2639::t_3292d415f76723 392-394,441-443
+  s_6daf16b8cd2639::t_cd92757dfa9c25 450-452,463-465
+  s_6daf16b8cd2639::t_73d0ee5cb090b9 467-469,477-479
+  s_6daf16b8cd2639::t_cd072091c92286 481-483,489-491
+  s_6daf16b8cd2639::t_217851473dfd45 493
+  s_6daf16b8cd2639::t_820493f4513efa 495
+  s_6daf16b8cd2639::t_ea148a72d9a6ef 502-504,508-510
+  s_6daf16b8cd2639::t_eaca101b1b9501 512-513
+  s_6daf16b8cd2639::t_ff8307a8f0e610 515-519
+  s_6daf16b8cd2639::t_e530aea0e479a8 521-523
+  s_6daf16b8cd2639::t_cf33cd718fc61f 525-527,554-556
+  s_6daf16b8cd2639::t_e57d2ba2fbf47e 560-564
+  s_6daf16b8cd2639::t_76858214eb3184 567
+  s_6daf16b8cd2639::t_113a8cbd96465b 587-589,597-599
+  s_6daf16b8cd2639::t_b59bb588fdf81f 602-604,629-631
+  s_6daf16b8cd2639::t_33c12c55d8435e 634-636,643-645
+  s_6daf16b8cd2639::t_bda9d2c138af6b 647-649,652-654
+  s_6daf16b8cd2639::t_79cbf2f0b382cf 657-658
+  s_6daf16b8cd2639::t_043be776d87e2a 661-663,674-676
+  s_6daf16b8cd2639::t_1a7bf826ae1c08 679
+  s_6daf16b8cd2639::t_afdebaba3ebf7f 742-744,748-750
+  s_6daf16b8cd2639::t_42a040447aa064 752-754
+  s_6daf16b8cd2639::t_edebcf6fa171ed 776-779
+  s_6daf16b8cd2639::t_52e64da2fbaebb 781-783
+  s_6daf16b8cd2639::t_5ee2d1498bd427 787-788
+  s_6daf16b8cd2639::t_32fe251ec38193 795-799
+  s_6daf16b8cd2639::t_31cbcefdbcac10 801-803
+  s_6daf16b8cd2639::t_270486a77a3192 809-811,819-821
+  s_6daf16b8cd2639::t_a2b4976b754584 823-825,830-832
+  s_6daf16b8cd2639::t_65f305e3b3670e 834-839
+  s_6daf16b8cd2639::t_e777f615ee52af 841-842
+ais_bench/configs/agent_example/harbor_deep_swe_task.py
+  s_6daf16b8cd2639::t_9d4f2b086053f0 1-115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "ef62f1adc5edfc49c2321df1ad6a51b7f34906bb",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_6daf16b8cd2639": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a94e4757e0eb9468604daa5",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "external_session_id": "6a94e4757e0eb9468604daa5",
+        "runtime_client": "trae-tob-git-ai",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "operation_id": "6a992012c00a398af1055fdd",
+        "tool_use_id": "6a992012c00a398af1055fdd",
+        "session_id": "6a94e4757e0eb9468604daa5",
+        "source_scene": "unknown",
+        "dedupe_key": "6a94e4757e0eb9468604daa5:6a992012c00a398af1055fdd:afterEdit:7b1c765d",
+        "tool_id": "Edit",
+        "tool_type": "agent"
+      }
+    }
+  }
+}
