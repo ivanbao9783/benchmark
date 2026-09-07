@@ -1,0 +1,57 @@
+ais_bench/benchmark/utils/harbor_report.py
+  s_6daf16b8cd2639::t_a55e6ff7db486d 466
+  s_6daf16b8cd2639::t_4b59280e2bef4d 568-584,586
+  s_6daf16b8cd2639::t_e85a129c5cdf74 173
+  s_6daf16b8cd2639::t_83d26fb79c9953 381,385
+  s_6daf16b8cd2639::t_fd84ac7c765291 789-793,804-807
+  s_6daf16b8cd2639::t_c0101f4d2c2bd7 102-141,148-153,155-162,170,174,179,182,185-197,199-202,205-206,211,227-229,231-232
+  s_6daf16b8cd2639::t_af91ca0c12e968 444-449
+  s_6daf16b8cd2639::t_b519dd1635a880 92-101
+  s_6daf16b8cd2639::t_63dfd2b0a22cc0 236,246-252,256-261,263-268,270
+  s_6daf16b8cd2639::t_092ca1c51d2b44 557-558
+  s_6daf16b8cd2639::t_d9bb75c7ee2a3a 230
+  s_6daf16b8cd2639::t_404c506cffac04 680-707,709-741
+  s_6daf16b8cd2639::t_7fe4c92026daca 755-756,761-775
+  s_6daf16b8cd2639::t_4987a94a9894aa 800
+  s_6daf16b8cd2639::t_fee298b331eb4d 496-501
+  s_6daf16b8cd2639::t_268c478f422519 565
+  s_6daf16b8cd2639::t_ee32dd842812e9 391
+  s_6daf16b8cd2639::t_b666c3e38e3e93 142-147,154
+  s_6daf16b8cd2639::t_453db9774fae83 216-225
+  s_6daf16b8cd2639::t_35c708366ea59b 794
+  s_6daf16b8cd2639::t_6ae6310cd76289 708
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "537e2d68ca8bfcd72d677d411850286173df2172",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_6daf16b8cd2639": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a94e4757e0eb9468604daa5",
+        "model": "DeepSeek-V4-Pro-Official__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "runtime_client": "trae-tob-git-ai",
+        "operation_id": "6a9e2f98c00a398af1056a9f",
+        "tool_id": "Edit",
+        "tool_type": "agent",
+        "tool_use_id": "6a9e2f98c00a398af1056a9f",
+        "dedupe_key": "6a94e4757e0eb9468604daa5:6a9e2f98c00a398af1056a9f:afterEdit:fa343285",
+        "client_type": "ide",
+        "session_id": "6a94e4757e0eb9468604daa5",
+        "external_session_id": "6a94e4757e0eb9468604daa5",
+        "source_scene": "unknown"
+      }
+    }
+  }
+}
