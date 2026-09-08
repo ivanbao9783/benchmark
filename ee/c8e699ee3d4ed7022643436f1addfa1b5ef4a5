@@ -1,0 +1,37 @@
+ais_bench/configs/agent_example/harbor_deepswe_task.py
+  s_0033d82e2f37ed::t_bc745a5c338b86 20,24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "eec8e699ee3d4ed7022643436f1addfa1b5ef4a5",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0033d82e2f37ed": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e316cc00a398af1056aa6",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "session_id": "6a9e316cc00a398af1056aa6",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_type": "agent",
+        "source_scene": "unknown",
+        "edit_kind": "file_edit",
+        "external_session_id": "6a9e316cc00a398af1056aa6",
+        "client_type": "ide",
+        "tool_use_id": "6a9ffdc5c00a398af1057132",
+        "operation_id": "6a9ffdc5c00a398af1057132",
+        "dedupe_key": "6a9e316cc00a398af1056aa6:6a9ffdc5c00a398af1057132:afterEdit:b937c053",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}
