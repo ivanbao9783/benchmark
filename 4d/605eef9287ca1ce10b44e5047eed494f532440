@@ -1,0 +1,37 @@
+tests/UT/tasks/custom_tasks/test_harbor_task.py
+  s_0033d82e2f37ed::t_6ecf2c5403e7d4 203
+  s_0033d82e2f37ed::t_aee93a816dcdc7 267
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "4d605eef9287ca1ce10b44e5047eed494f532440",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0033d82e2f37ed": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e316cc00a398af1056aa6",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "external_session_id": "6a9e316cc00a398af1056aa6",
+        "source_scene": "agent",
+        "session_id": "6a9e316cc00a398af1056aa6",
+        "client_type": "ide",
+        "edit_kind": "bash",
+        "tool_use_id": "6a9fd78fc00a398af105703e",
+        "display_model_name": "GLM-5.3",
+        "tool_name": "RunCommand",
+        "operation_id": "6a9fd78fc00a398af105703e",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}
