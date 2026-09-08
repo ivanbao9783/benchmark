@@ -1,0 +1,56 @@
+ais_bench/benchmark/summarizers/deepswe.py
+  s_0033d82e2f37ed::t_0e5c1a57c325cf 27,30-32
+  h_18f306f4f1ed04 9
+  s_0033d82e2f37ed::t_7cc0dfe3dde088 29
+  s_0033d82e2f37ed::t_381ba3e1baa59d 28
+  s_0033d82e2f37ed::t_b194203a5a9709 33-35
+docs/source_zh_cn/base_tutorials/scenes_intro/agent_benchmark.md
+  s_0033d82e2f37ed::t_ce8b9b120b2163 47
+  s_0033d82e2f37ed::t_024627c91362aa 63
+ais_bench/configs/agent_example/harbor_deepswe_task.py
+  s_0033d82e2f37ed::t_b3cdedaca0f314 75
+  s_0033d82e2f37ed::t_72239bc29e84c0 16-38
+  s_0033d82e2f37ed::t_6ad82a482db283 39-74
+  s_0033d82e2f37ed::t_8dfbb3592aecf0 76-78
+  s_0033d82e2f37ed::t_e119790a8e43fe 13-15
+  s_0033d82e2f37ed::t_de37bdbff185a5 10-12
+  s_0033d82e2f37ed::t_41138b78c9d162 79-81
+ais_bench/benchmark/tasks/custom_tasks/harbor_task.py
+  s_0033d82e2f37ed::t_51a87e3f437769 324-326
+  s_0033d82e2f37ed::t_70ee598ce190f1 323
+  s_0033d82e2f37ed::t_92a47f1bb553d7 327-329
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "c845d3bf6a842109cbbc8540b91f0334c98f0fb9",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0033d82e2f37ed": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e316cc00a398af1056aa6",
+        "model": "DeepSeek-V4-Pro-Official__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "tool_type": "agent",
+        "operation_id": "6a9e6dc0c00a398af1056c1c",
+        "session_id": "6a9e316cc00a398af1056aa6",
+        "tool_id": "Edit",
+        "dedupe_key": "6a9e316cc00a398af1056aa6:6a9e6dc0c00a398af1056c1c:afterEdit:44969ac3",
+        "source_scene": "unknown",
+        "tool_use_id": "6a9e6dc0c00a398af1056c1c",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "external_session_id": "6a9e316cc00a398af1056aa6",
+        "runtime_client": "trae-tob-git-ai"
+      }
+    }
+  }
+}
