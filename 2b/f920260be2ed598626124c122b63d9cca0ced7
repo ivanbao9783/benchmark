@@ -1,0 +1,147 @@
+docs/source_zh_cn/base_tutorials/scenes_intro/agent_benchmark.md
+  s_0033d82e2f37ed::t_024627c91362aa 63
+  s_0033d82e2f37ed::t_ce8b9b120b2163 47
+ais_bench/configs/agent_example/harbor_deepswe_task.py
+  s_0033d82e2f37ed::t_72239bc29e84c0 16-38
+  s_0033d82e2f37ed::t_b3cdedaca0f314 75
+  s_0033d82e2f37ed::t_e119790a8e43fe 13-15
+  s_0033d82e2f37ed::t_6ad82a482db283 39-41,72-74
+  s_0033d82e2f37ed::t_8dfbb3592aecf0 76-78
+ais_bench/benchmark/tasks/custom_tasks/harbor_task.py
+  s_0033d82e2f37ed::t_70ee598ce190f1 323
+  s_0033d82e2f37ed::t_51a87e3f437769 324-326
+ais_bench/benchmark/summarizers/deepswe.py
+  s_0033d82e2f37ed::t_7cc0dfe3dde088 29
+  h_18f306f4f1ed04 9
+  s_0033d82e2f37ed::t_0e5c1a57c325cf 30-32
+ais_bench/benchmark/utils/harbor_report.py
+  s_6daf16b8cd2639::t_fee298b331eb4d 502-507
+  s_6daf16b8cd2639::t_6ff27e0014bd1d 232
+  s_6daf16b8cd2639::t_404c506cffac04 486,500,520,530,606-607,638-639,652,661-662,665-666,684-685,687-697,711-724,726-737,739-758,768,802-803,825
+  s_6daf16b8cd2639::t_2ed49f9e7f22a5 219-221
+  s_6daf16b8cd2639::t_268c478f422519 571
+  s_6daf16b8cd2639::t_79cbf2f0b382cf 663-664
+  s_6daf16b8cd2639::t_cd92757dfa9c25 456-471
+  s_6daf16b8cd2639::t_043be776d87e2a 667,669-680,683
+  s_6daf16b8cd2639::t_cf33cd718fc61f 531-562
+  s_6daf16b8cd2639::t_820493f4513efa 501
+  s_6daf16b8cd2639::t_3cf25783990b6a 44-46
+  s_6daf16b8cd2639::t_65f305e3b3670e 851-856
+  s_6daf16b8cd2639::t_1a7bf826ae1c08 686
+  s_0033d82e2f37ed::t_94bb745fd42590 681-682
+  s_6daf16b8cd2639::t_b519dd1635a880 92-93,95-102
+  s_6daf16b8cd2639::t_092ca1c51d2b44 563-564
+  s_6daf16b8cd2639::t_63dfd2b0a22cc0 242-276
+  s_0033d82e2f37ed::t_c8ac4fba592bcc 698-710
+  s_6daf16b8cd2639::t_e57d2ba2fbf47e 566-570
+  s_6daf16b8cd2639::t_33c12c55d8435e 640-651
+  s_6daf16b8cd2639::t_afdebaba3ebf7f 759-767
+  s_6daf16b8cd2639::t_3292d415f76723 398-449
+  s_6daf16b8cd2639::t_ff8307a8f0e610 521-525
+  s_6daf16b8cd2639::t_83d26fb79c9953 387-391
+  s_6daf16b8cd2639::t_113a8cbd96465b 593-605
+  s_6daf16b8cd2639::t_e85a129c5cdf74 174
+  s_6daf16b8cd2639::t_bda9d2c138af6b 653-660
+  s_6daf16b8cd2639::t_270486a77a3192 826-838
+  s_6daf16b8cd2639::t_a55e6ff7db486d 472
+  s_6daf16b8cd2639::t_5ee2d1498bd427 804-805
+  s_6daf16b8cd2639::t_4b59280e2bef4d 498,574-592
+  s_6daf16b8cd2639::t_64e8ae48d7967f 315-332
+  s_6daf16b8cd2639::t_42a040447aa064 769-771
+  s_6daf16b8cd2639::t_453db9774fae83 222-231
+  s_6daf16b8cd2639::t_cd072091c92286 487-497
+  s_6daf16b8cd2639::t_7a1ae4f132c220 392-396
+  s_6daf16b8cd2639::t_b666c3e38e3e93 143-148,155,850,857
+  s_6daf16b8cd2639::t_ee32dd842812e9 397
+  s_6daf16b8cd2639::t_217851473dfd45 499
+  s_0033d82e2f37ed::t_8b0392f6bb8b53 121,133-136
+  s_6daf16b8cd2639::t_6ae6310cd76289 725
+  s_6daf16b8cd2639::t_e530aea0e479a8 527-529
+  s_6daf16b8cd2639::t_32fe251ec38193 812-816
+  s_6daf16b8cd2639::t_bdc639aa5cdff6 48-53
+  s_6daf16b8cd2639::t_af91ca0c12e968 450-455
+  s_6daf16b8cd2639::t_1b3a1157757c0e 334-386
+  s_0033d82e2f37ed::t_10365f994cd1f7 668
+  s_6daf16b8cd2639::t_73d0ee5cb090b9 473-485
+  s_6daf16b8cd2639::t_8db722458a6a74 277-313
+  s_0033d82e2f37ed::t_98fc2ad2cfc9d0 94
+  s_6daf16b8cd2639::t_b59bb588fdf81f 608-637
+  s_6daf16b8cd2639::t_edebcf6fa171ed 793-796
+  s_6daf16b8cd2639::t_4987a94a9894aa 817
+  s_6daf16b8cd2639::t_ea148a72d9a6ef 508-516
+  s_6daf16b8cd2639::t_31cbcefdbcac10 818-820
+  s_6daf16b8cd2639::t_e777f615ee52af 36,40,858-859
+  s_0033d82e2f37ed::t_b25a484765d7f3 843
+  s_6daf16b8cd2639::t_fd84ac7c765291 517,565,572,797,801,806-810,821-824
+  s_0033d82e2f37ed::t_0c04648c253ea2 204-207,213-214,217-218
+  s_6daf16b8cd2639::t_7fe4c92026daca 772-792
+  s_6daf16b8cd2639::t_c0101f4d2c2bd7 47,54,103-120,122-132,137-142,149-154,156-172,175-203,208-212,215-216,233-235,237-238,314,333,526,839
+  s_6daf16b8cd2639::t_d9bb75c7ee2a3a 236
+  s_6daf16b8cd2639::t_35c708366ea59b 811
+  s_6daf16b8cd2639::t_71848a6d4c5e8e 239-241
+  s_6daf16b8cd2639::t_76858214eb3184 573
+  s_6daf16b8cd2639::t_a2b4976b754584 37,840-842,847-849
+  s_0033d82e2f37ed::t_306adb823635b0 738
+  s_6daf16b8cd2639::t_8f5625905b0e2d 55-91
+  s_6daf16b8cd2639::t_f01f5dadc76d65 173
+  s_6daf16b8cd2639::t_eaca101b1b9501 518-519
+  s_6daf16b8cd2639::t_52e64da2fbaebb 798-800
+  s_6daf16b8cd2639::t_556bafad1b22a9 33-35
+  s_6daf16b8cd2639::t_1bfb2e5ed663a0 38-39
+  s_6daf16b8cd2639::t_907bbc27f1c941 41-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "2bf920260be2ed598626124c122b63d9cca0ced7",
+  "prompts": {},
+  "humans": {
+    "h_18f306f4f1ed04": {
+      "author": "ivanbao9783 <ivanbao9783@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_0033d82e2f37ed": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e316cc00a398af1056aa6",
+        "model": "DeepSeek-V4-Pro-Official__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "operation_id": "6a9e6dc0c00a398af1056c1c",
+        "dedupe_key": "6a9e316cc00a398af1056aa6:6a9e6dc0c00a398af1056c1c:afterEdit:44969ac3",
+        "tool_use_id": "6a9e6dc0c00a398af1056c1c",
+        "tool_type": "agent",
+        "tool_id": "Edit",
+        "runtime_client": "trae-tob-git-ai",
+        "client_type": "ide",
+        "session_id": "6a9e316cc00a398af1056aa6",
+        "source_scene": "unknown",
+        "external_session_id": "6a9e316cc00a398af1056aa6",
+        "edit_kind": "file_edit"
+      }
+    },
+    "s_6daf16b8cd2639": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a94e4757e0eb9468604daa5",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "edit_kind": "file_edit",
+        "session_id": "6a94e4757e0eb9468604daa5",
+        "source_scene": "unknown",
+        "tool_id": "Edit",
+        "client_type": "ide",
+        "operation_id": "6a992012c00a398af1055fdd",
+        "tool_type": "agent",
+        "runtime_client": "trae-tob-git-ai",
+        "dedupe_key": "6a94e4757e0eb9468604daa5:6a992012c00a398af1055fdd:afterEdit:7b1c765d",
+        "tool_use_id": "6a992012c00a398af1055fdd",
+        "external_session_id": "6a94e4757e0eb9468604daa5"
+      }
+    }
+  }
+}
