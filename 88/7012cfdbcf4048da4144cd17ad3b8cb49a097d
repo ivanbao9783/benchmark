@@ -1,0 +1,34 @@
+tests/UT/summarizers/test_deepswe.py
+  s_0033d82e2f37ed::t_27c479787b0645 1-70,73-75,81-146,148-212
+  s_0033d82e2f37ed::t_613ccfae5ff0ab 147
+  s_0033d82e2f37ed::t_d8f6f81b1b3568 71-72,76-80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.2",
+  "base_commit_sha": "887012cfdbcf4048da4144cd17ad3b8cb49a097d",
+  "prompts": {},
+  "sessions": {
+    "s_0033d82e2f37ed": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a9e316cc00a398af1056aa6",
+        "model": "glm-5.3__dev"
+      },
+      "human_author": "ivanbao9783 <ivanbao9783@gmail.com>",
+      "custom_attributes": {
+        "dedupe_key": "6a9e316cc00a398af1056aa6:6a9fd2f1c00a398af105700b:afterEdit:0e94c4b2",
+        "runtime_client": "trae-tob-git-ai",
+        "tool_use_id": "6a9fd2f1c00a398af105700b",
+        "tool_type": "agent",
+        "edit_kind": "file_edit",
+        "client_type": "ide",
+        "session_id": "6a9e316cc00a398af1056aa6",
+        "external_session_id": "6a9e316cc00a398af1056aa6",
+        "source_scene": "unknown",
+        "operation_id": "6a9fd2f1c00a398af105700b",
+        "tool_id": "Edit"
+      }
+    }
+  }
+}
